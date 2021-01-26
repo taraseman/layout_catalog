@@ -10,12 +10,16 @@
   border: 1px solid $active-color;
   border-radius: 5px;
 
+  transition: background-color 1s;
+
   &__link {
     font-size: 14px;
     font-weight: 700;
     line-height: 39px;
     text-decoration: none;
     color: white;
+
+    transition: color 1s;
   }
 
   &:hover {
