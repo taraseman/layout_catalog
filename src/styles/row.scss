@@ -1,14 +1,12 @@
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-rows: 403px;
+  gap: 50px 48px;
+  width: 944px;
+  margin: 0 auto;
+
+  justify-items: center;
   justify-content: center;
 
-  &__item {
-    @include flex-space-between;
-    flex-wrap: wrap;
-    width: 944px;
-
-    &-card {
-      margin-bottom: 50px;
-    }
-  }
 }
